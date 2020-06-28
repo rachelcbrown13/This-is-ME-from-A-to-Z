@@ -8,9 +8,8 @@ $(function(){
         img[i].src = myPix[randomNum];
       }
   }
-  function fadeIn(){
-    $(".cover").fadeIn("10000");
-  }
+  $(".cover").fadeIn(10000);
+
 
   function total(){
      var quantity = 0;

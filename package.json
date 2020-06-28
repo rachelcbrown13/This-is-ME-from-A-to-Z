@@ -1,7 +1,7 @@
 {
   "name": "ThisIsMe",
   "version": "1.0.0",
-  "description": "This is ME from A to Z Bootstrap Project",
+  "description": "This is ME from A to Z Project",
   "main": "index.html",
   "scripts": {
     "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin",

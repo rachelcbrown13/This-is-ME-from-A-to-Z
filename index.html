@@ -42,48 +42,52 @@
       <div class="modal fade hide" id="purchaseModal" role="dialog">
         <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
-            <div class="modal-header bg-danger text-white">
+            <div class="modal-header bg-success text-white">
               <h3 class="modal-title">Purchase</h3>
               <button type="button" class="close" data-dismiss="modal">&times;</button>
             </div>
             <div class="modal-body">
               <div class="container-fluid">
-                <form>
-                  <div class="form-row justify-around">
-                    <div class="form-group col-md-4">
+              <form class="row d-flex justify-content-center align-items-center" id=formBorder>
+
+                  <div class="flex-column form-row col-4" id=imageBorder>
+                    <div class="form-group align-center">
                       <img src="img/FrontCover.png" width="150" class="img-thumbnail">
                     </div>
-                    <div class="form-group col-lg-4">
-                      <input type="number" placeholder="Quantity" id="bookNum">
+                    <div class="form-group col">
+                      <img src="img/ActivityBookFrontCover.png" width="150" class="img-thumbnail">
                     </div>
-                    <div class="form-group col-lg-4">
+                  </div>
+                  
+                  <div class="d-flex flex-column form-row col-md-4" id="quanBorder">
+                    <div class="form-group align-center">
+                      <input type="number" placeholder="Quantity">
+                    </div>
+                    <div class="form-group align-center">
+                      <input type="number" placeholder="Quantity" id="bookNum">
+                    </div>                  
+                  </div>
+
+                  <div class="d-flex flex-column form-row col-md-4" id="priceBorder" height="200px">
+                    <div class="form-group">
                       Price: <input type="text"> <br>
                       Shipping: <input type="text">
                     </div>
-                  </div>
-                  <div class="form-row">
-                    <div class="form-group col-md-4">
-                      <img src="img/ActivityBookFrontCover.png" width="150" class="img-thumbnail">
-                    </div>
-                    <div class="form-group col-lg-4">
-                      <input type="number" placeholder="Quantity">
-                    </div>
-                    <div class="form-group col-lg-4">
+                    <div class="form-group">
                       Total: <input type="text">
-                      <button type="submit" class="btn btn-success btn-lg">Purchase Here!</button>
                     </div>
-                  </div>
+                  </div>                  
                 </form> 
               </div>
             </div>
             <!-- look up: 1. text boxes on bootstrap, width & height
-                          2. how to align things in the modal
                           3. how to store an input-->
             <div class="modal-footer">
+              <button type="submit" class="btn btn-warning btn-lg">Purchase Here!</button>
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
             </div>
             <div class="justify-content-bottom">
-              <p>No but really, if you want to purchase <a href="https://www.amazon.com/This-Me-Z-Rachel-Brown-ebook/dp/B089PT13ZZ/ref=sr_1_3?dchild=1&keywords=rachel+chardea+brown&qid=1592015642&sr=8-3" target="_blank">CLICK HERE</a></p>
+              <p>But really, if you want to purchase <a href="https://www.amazon.com/This-Me-Z-Rachel-Brown-ebook/dp/B089PT13ZZ/ref=sr_1_3?dchild=1&keywords=rachel+chardea+brown&qid=1592015642&sr=8-3" target="_blank">CLICK HERE</a></p>
             </div>
           </div>
         </div>
