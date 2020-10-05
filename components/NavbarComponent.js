@@ -16,9 +16,6 @@ class Navbar extends Component{
                                 <a class="nav-link" href="profile.html">Profiles</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="colorpage.html">Coloring Pages</a>
-                            </li>
-                            <li class="nav-item">
                                 <a class="nav-link" href="aboutAuthor.html">About the Author</a>
                             </li>
                         </ul>
