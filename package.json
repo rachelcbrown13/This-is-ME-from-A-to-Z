@@ -11,7 +11,7 @@
     "lite": "lite-server",
     "start": "npm run watch:all",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "usemin": "usemin profile.html -d dist --htmlmin -o dist/profile.html && usemin aboutAuthor.html -d dist --htmlmin -o dist/aboutAuthor.html && usemin index.html -d dist --htmlmin -o dist/index.html && usemin colorpage.html -d dist --htmlmin -o dist/colorpage.html",
+    "usemin": "usemin profile.html -d dist --htmlmin -o dist/profile.html && usemin aboutAuthor.html -d dist --htmlmin -o dist/aboutAuthor.html && usemin index.html -d dist --htmlmin -o dist/index.html",
     "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
     "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\""
   },
