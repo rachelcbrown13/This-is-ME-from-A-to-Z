@@ -68,24 +68,3 @@ position: fixed;
 div.col-8 div {
 height: 500px;
 }
-
-.nav-link[data-toggle].collapsed:before {
-    content: " ▾";
-}
-.nav-link[data-toggle]:not(.collapsed):before {
-    content: " ▴";
-}
-
-/* testing borders */
-#formBorder{
-    border: black solid 2px;
-}
-#imageBorder{
-    border: blue solid 2px;
-}
-#quanBorder{
-    border: crimson solid 2px;
-}
-#priceBorder{
-    border: darkmagenta solid 2px;
-}
