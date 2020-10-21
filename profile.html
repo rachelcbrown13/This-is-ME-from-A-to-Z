@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- endbuild -->
     <title>This is ME from A to Z</title>
 </head>
@@ -82,7 +83,7 @@
           </div>
         </div>
 <!-- Profile Grid -->
-      <div class="container">
+      <div class="container"  data-aos="fade-in">
         <div class="row justify-content-center">
           <div class="col-4">
             <a href="./Profiles/apollos.html"><img src="img/Letter_A.png" alt="Apollos" class="img-thumbnail"></a>
@@ -206,6 +207,13 @@
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="scripts.js"> </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 200,
+        duration: 2400
+        })
+    </script>
     <!-- endbuild -->
     </body>
 </html>

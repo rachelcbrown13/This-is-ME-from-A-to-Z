@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
     <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- endbuild -->
     <title>This is ME from A to Z</title>
   </head>
@@ -35,7 +36,7 @@
     </div>
   </nav>
       <!-- Modal -->
-      <div class="modal fade hide" id="purchaseModal" role="dialog">
+      <div class="modal fade hide slow" id="purchaseModal" role="dialog">
         <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
             <div class="modal-header bg-success text-white">
@@ -94,31 +95,43 @@
           <!-- Circle grid Left-->
           <div class="d-none d-lg-flex flex-column mx-2">
             <div class="col my-5">
-                <img src="./img/Letter_F.png" class="rounded-circle circle" width="175">
+                <img src="./img/Letter_F.png" class="rounded-circle circle" width="175"  
+                    data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
             </div>
             <div class="col my-5">
-              <img src="./img/Letter_O.png" class="rounded-circle align circle" width="175">
+              <img src="./img/Letter_O.png" class="rounded-circle align circle" width="175" 
+                  data-aos="fade-right"
+                  data-aos-offset="100"
+                  data-aos-easing="ease-in-sine">
             </div>
             <div class="col my-5">
-              <img src="./img/Letter_W.png" class="rounded-circle circle" width="175">
+              <img src="./img/Letter_W.png" class="rounded-circle circle" width="175"  data-aos="fade-in">
             </div>
           </div>         
           <!-- Book Image -->
           <div class="cover d-flex flex-column mx-2">
-            <div class="col mb-5">
-                <img src="img/FrontCover.png" class="img-thumbnail img-fluid">
+            <div class="col mb-5 ">
+                <img src="img/FrontCover.png" class=" img-thumbnail img-fluid" data-aos="zoom-in-down">
             </div>
           </div>
           <!-- Circle Grid Right -->
-          <div class="d-lg-flex d-none flex-column mx-2">
+          <div class="d-lg-flex d-none flex-column mx-2" >
             <div class="col my-5">
-              <img src="img/Letter_L.png" class="rounded-circle circle" width="175">
+              <img src="img/Letter_L.png" class="rounded-circle circle" width="175" 
+                data-aos="fade-left"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
             </div>
             <div class="col my-5">
-              <img src="img/Letter_Talia.png" class="rounded-circle circle" width="175">
+              <img src="img/Letter_Talia.png" class="rounded-circle circle" width="175" 
+                data-aos="fade-left"
+                data-aos-offset="100"
+                data-aos-easing="ease-in-sine">
             </div>
             <div class="col my-5">
-                <img src="img/Letter_U.png" class="rounded-circle circle" width="175">
+                <img src="img/Letter_U.png" class="rounded-circle circle" width="175" data-aos="fade-in">
             </div> 
           </div>
         </div>
@@ -144,6 +157,13 @@
   <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   <script src="scripts.js"> </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 200,
+      duration: 2400
+      })
+  </script>
   <!-- endbuild -->
   </body>
 </html>
