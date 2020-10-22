@@ -4,7 +4,7 @@
   "description": "This is ME from A to Z Project",
   "main": "index.html",
   "scripts": {
-    "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run copydata && npm run usemin",
+    "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run copyfiles && npm run usemin",
     "clean": "rimraf dist",
     "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
     "copyfiles": "copyfiles -f Profiles/* dist/Profiles",
