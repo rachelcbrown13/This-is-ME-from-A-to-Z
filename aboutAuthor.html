@@ -35,55 +35,63 @@
       </div>
     </nav>
         <!-- Modal -->
-        <div class="modal fade hide" id="purchaseModal" role="dialog">
-          <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-              <div class="modal-header bg-danger text-white">
-                <h3 class="modal-title">Purchase</h3>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-              </div>
-              <div class="modal-body">
-                <div class="container-fluid">
-                  <form>
-                    <div class="form-row justify-around">
-                      <div class="form-group col-md-4">
-                        <img src="img/FrontCover.png" width="150" class="img-thumbnail">
-                      </div>
-                      <div class="form-group col-lg-4">
-                        <input type="number" placeholder="Quantity" id="bookNum">
-                      </div>
-                      <div class="form-group col-lg-4">
-                        Price: <input type="text"> <br>
-                        Shipping: <input type="text">
-                      </div>
+      <div class="modal fade hide slow" id="purchaseModal" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header bg-success text-white">
+              <h3 class="modal-title">Purchase</h3>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+              <div class="container-fluid">
+              <form>
+                  <div class="row" >
+                    <div class="form-group align-center col-sm-4">
+                      <img src="img/FrontCover.png" width="150" class="img-thumbnail">
                     </div>
-                    <div class="form-row">
-                      <div class="form-group col-md-4">
-                        <img src="img/ActivityBookFrontCover.png" width="150" class="img-thumbnail">
-                      </div>
-                      <div class="form-group col-lg-4">
-                        <input type="number" placeholder="Quantity">
-                      </div>
-                      <div class="form-group col-lg-4">
-                        Total: <input type="text">
-                        <button type="submit" class="btn btn-success btn-lg">Purchase Here!</button>
-                      </div>
+                    <div class="col-md-4">
+                      <input type="number" placeholder="Quantity" id="bookNum">
                     </div>
-                  </form> 
-                </div>
+                    <div class="col-md-4">
+                      <input type="number" placeholder="Price" id="bookNum">
+                    </div>
+                  </div>
+                  
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <img src="img/ActivityBookFrontCover.png" width="150" class="img-thumbnail">
+                    </div>
+                    <div class="col-md-4">
+                      <input type="number" placeholder="Quantity" id="bookNum">
+                    </div>
+                    <div class="col-md-4">
+                      <input type="number" placeholder="Price" id="bookNum">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-4  align-self-end">
+                      Shipping: <input type="text" class="col">
+                    </div>
+                    <div class="col-sm-4  align-self-end">
+                      Total: <input type="text" class="col">
+                    </div>
+                  </div>                  
+                </form> 
               </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              </div>
-              <div class="justify-content-bottom">
-                <p>No but really, if you want to purchase <a href="https://www.amazon.com/This-Me-Z-Rachel-Brown-ebook/dp/B089PT13ZZ/ref=sr_1_3?dchild=1&keywords=rachel+chardea+brown&qid=1592015642&sr=8-3" target="_blank">CLICK HERE</a></p>
-              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="submit" class="btn btn-warning btn-lg">Purchase Here!</button> </br>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+            <div class="justify-content-bottom">
+              <p>But really, if you want to purchase <a href="https://www.amazon.com/This-Me-Z-Rachel-Brown-ebook/dp/B089PT13ZZ/ref=sr_1_3?dchild=1&keywords=rachel+chardea+brown&qid=1592015642&sr=8-3" target="_blank">CLICK HERE</a></p>
             </div>
           </div>
         </div>
+      </div>
       <!-- Start of Grid -->
-      <div class="d-flex flex-row align-items-center">
-          <div class="col-5 ml-5"> 
+      <div class="d-lg-flex flex-row align-items-center">
+          <div class="col ml-5"> 
               <p class="lead">
                 <a href="https://www.rachelchardeabrown.com" target="_blank" style="color:rgb(161, 6, 6)"><strong>Rachel Chardéa Brown</strong></a> is a teacher, speaker, and author. Through her experiences as a mother and preschool teacher, Rachel has developed a passion for children’s literature and seeing little ones grow. In between changing diapers and weathering meltdowns, she seeks to build children’s confidence, develop their imaginations and create environments for growth. Rachel resides in Fort Worth, Texas with her husband EJ and son Apollos.
               </p>
